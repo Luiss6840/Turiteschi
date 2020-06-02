@@ -1,0 +1,94 @@
+body{
+width: 1000px;
+margin: 0 auto;
+height: auto;
+background: black;
+}
+	.ima{
+		position: absolute;
+		width: 1000px;
+		height: 300px;
+		transform: translate(-45%, -30%);
+		display: inline-block;
+	}
+		.text1{
+			margin: 10px 10px;
+			transform: translate(15%, 100%);
+			display: inline-block;
+			color: aqua;
+			font-size: 55px;
+		}
+			.menu{
+				display: inline-block;
+				transform: translate(10%, -55%);
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			.menu a{
+				display: block;
+				padding: -15em;
+				background-color: #C0C0C0;
+				text-decoration: none;
+				color: #191C26;
+				font-size: 20px;
+			}
+			.menu ul li ul{
+				background-color: #CC673B;
+			}
+			.menu ul li a :hover + ul, .menu ul li ul :hover{
+				display: inline-block;
+			}
+.fo2{
+		position: absolute;
+		width: 500px;
+		height: 300px;
+		transform: translate(-45%, 10%);
+		display: inline-block;
+}
+.fo3{
+		position: absolute;
+		width: 500px;
+		height: 300px;
+		transform: translate(-45%, 100%);
+		display: inline-block;
+}
+.fo4{
+		position: absolute;
+		width: 500px;
+		height: 300px;
+		transform: translate(-45%, 200%);
+		display: inline-block;
+}
+.fo5{
+		position: absolute;
+		width: 500px;
+		height: 300px;
+		transform: translate(-45%, 300%);
+		display: inline-block;
+}
+.fo6{
+		position: absolute;
+		width: 500px;
+		height: 300px;
+		transform: translate(-45%, 400%);
+		display: inline-block;
+	}
+
+
+
+
+			.ima5{
+				position: absolute;
+				width: 1000px;
+				height: 300px;
+				transform: translate(5%, 520%);
+				display: inline-block;
+			}
+			.text6{
+			margin: 10px 10px;
+			transform: translate(19%, 740%);
+			display: inline-block;
+			font-size: 30px;
+			color: black;
+					}

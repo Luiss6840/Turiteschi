@@ -1,0 +1,117 @@
+body{
+width: 1000px;
+margin: 0 auto;
+height: auto;
+background: black;
+}
+	.ima{
+		position: absolute;
+		width: 1000px;
+		height: 300px;
+		transform: translate(-45%, -30%);
+		display: inline-block;
+	}
+		.text1{
+			margin: 10px 10px;
+			transform: translate(15%, 100%);
+			display: inline-block;
+			color: aqua;
+			font-size: 55px;
+		}
+			.menu{
+				display: inline-block;
+				transform: translate(10%, -55%);
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			.menu a{
+				display: block;
+				padding: -15em;
+				background-color: #C0C0C0;
+				text-decoration: none;
+				color: #191C26;
+				font-size: 20px;
+			}
+			.menu ul li ul{
+				background-color: #CC673B;
+			}
+			.menu ul li a :hover + ul, .menu ul li ul :hover{
+				display: inline-block;
+			}
+
+.ima1{
+	position: absolute;
+	width: 500px;
+	height: 200px;
+	transform: translate(-25%, 10%);
+}
+.text2{
+	margin: 10px 10px;
+	transform: translate(15%, 120%);
+	display: inline-block;
+	color: white;
+	font-size: 55px;
+}
+.text2 a{
+	color: aqua;
+}
+	.ima2{
+		position: absolute;
+		width: 500px;
+		height: 200px;
+		transform: translate(-6%, 90%);
+	}
+	.text3{
+		margin: 10px 10px;
+		transform: translate(15%, 370%);
+		display: inline-block;
+		font-size: 55px;
+	}
+	.text3 a{
+		color: aqua;
+	}
+			.ima3{
+				position: absolute;
+				width: 500px;
+				height: 200px;
+				transform: translate(-2%, 170%);
+			}
+			.text4{
+				margin: 10px 10px;
+				transform: translate(15%, 670%);
+				display: inline-block;
+				font-size: 55px;
+			}
+			.text4 a{
+				color: aqua;
+			}
+				.ima4{
+					position: absolute;
+					width: 500px;
+					height: 200px;
+					transform: translate(-18.5%, 250%);
+				}
+				.text5{
+					margin: 10px 10px;
+					transform: translate(15%, 870%);
+					display: inline-block;
+					font-size: 55px;
+				}
+				.text5 a{
+					color: aqua;
+				}		
+					.ima5{
+						position: absolute;
+						width: 1000px;
+						height: 300px;
+						transform: translate(5%, 220%);
+						display: inline-block;
+					}
+					.text6{
+						margin: 10px 10px;
+					    transform: translate(19%, 340%);
+					    display: inline-block;
+					    font-size: 30px;
+					    color: black;
+					}

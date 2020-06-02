@@ -1,0 +1,91 @@
+body{
+width: 1000px;
+margin: 0 auto;
+height: auto;
+background: black;
+}
+	.ima{
+		position: absolute;
+		width: 1000px;
+		height: 300px;
+		transform: translate(-45%, -30%);
+		display: inline-block;
+	}
+		.text1{
+			margin: 10px 10px;
+			transform: translate(15%, 100%);
+			display: inline-block;
+			color: aqua;
+			font-size: 55px;
+		}
+			.menu{
+				display: inline-block;
+				transform: translate(10%, -55%);
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			.menu a{
+				display: block;
+				padding: -15em;
+				background-color: #C0C0C0;
+				text-decoration: none;
+				color: #191C26;
+				font-size: 20px;
+			}
+			.menu ul li ul{
+				background-color: #CC673B;
+			}
+			.menu ul li a :hover + ul, .menu ul li ul :hover{
+				display: inline-block;
+			}
+				.pa1{
+					position: absolute;
+					width: 300px;
+					height: 200px;
+					transform: translate(40%, 0%);
+				}
+				.text2{
+					margin: 10px 10px;
+					transform: translate(15%, 70%);
+					display: inline-block;
+					color: white;
+				}
+					.pa2{
+					position: absolute;
+					width: 300px;
+					height: 200px;
+					transform: translate(40%, 47%);
+					}
+					.text3{
+					margin: 10px 10px;
+					transform: translate(15%, 180%);
+					display: inline-block;
+					color: white;
+					}
+						.pa3{
+							position: absolute;
+							width: 300px;
+							height: 200px;
+							transform: translate(40%, 100%);
+						}
+						.text4{
+							margin: 10px 10px;
+							transform: translate(15%, 290%);
+							display: inline-block;
+							color: white;
+						}
+			.ima5{
+				position: absolute;
+				width: 1000px;
+				height: 300px;
+				transform: translate(5%, 220%);
+				display: inline-block;
+			}
+			.text6{
+			margin: 10px 10px;
+			transform: translate(19%, 340%);
+			display: inline-block;
+			font-size: 30px;
+			color: black;
+					}
